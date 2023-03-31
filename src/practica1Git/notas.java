@@ -92,11 +92,16 @@ public class notas {
 			}else {
 				if (result>=5 && result<=10 ) {
 				System.out.println("aprobado");
-				}else {
+				}
+				else {
+					if (result>=4 && result<=10 ) {
+					System.out.println("revisión prácticas");
+					}else {
 					System.out.println(" error en la notas");
 				}
 			}
 		} 
+	}
 		
 		
 	public static void main(String[] args) {
