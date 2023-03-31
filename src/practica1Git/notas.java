@@ -85,7 +85,7 @@ public class notas {
 		
 	}
 
-	public void aprobado() {
+	public void resultado() {
 			
 			if(result<5 && result>=0) {
 				System.out.println("suspendio");
@@ -112,7 +112,7 @@ public class notas {
 		
 		fc.Mostrar();
 		
-		fc.aprobado();
+		fc.resultado();
 		
 	}
 
