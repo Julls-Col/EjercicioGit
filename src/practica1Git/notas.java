@@ -92,11 +92,16 @@ public class notas {
 			}else {
 				if (def>=5 && def<=10 ) {
 				System.out.println("aprobado");
-				}else {
+				}
+				else {
+					if (result>=4 && result<=10 ) {
+					System.out.println("revisión Curso");
+					}else {
 					System.out.println(" error en la notas");
 				}
 			}
 		} 
+	}
 		
 		
 	public static void main(String[] args) {
