@@ -95,7 +95,7 @@ public class notas {
 				}
 				else {
 					if (result>=4 && result<=10 ) {
-					System.out.println("revisión prácticas");
+					System.out.println("revisión Curso");
 					}else {
 					System.out.println(" error en la notas");
 				}
